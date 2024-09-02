@@ -27,3 +27,6 @@
 | Comportement lors de l’actualisation du navigateur / Bouton « précédent » :Les paramètres de l’URL ne sont pas envoyés à nouveau. | Cache et fichier log du serveur : Les paramètres de l’URL ne sont pas enregistrés automatiquement. | 
 | Type de données : Caractères ASCII uniquement. | Type de données : Caractères ASCII mais également données binaires. |
 | Longueur des données : Limitée - longueur maximale de l’URL à 2 048 caractères.| Longueur des données : Illimitée. |
+
+# 3 -Extensible
+- Comme il est extensible, il est utilisé non seulement pour transmettre des documents hypertextes HTTP, mais aussi des images ou des vidéos, ou encore pour envoyer des données ou du contenu à des serveurs, comme dans le cas des formulaires. La méthode HTTP est à la base de tout échange de données sur le Web.
