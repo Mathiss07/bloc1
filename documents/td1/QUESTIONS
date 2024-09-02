@@ -17,3 +17,6 @@ POST :  Visibilité : Invisible pour l’utilisateur
         Comportement lors de l’actualisation du navigateur / Bouton « précédent » : Le navigateur avertit que les données du formulaire doivent être renvoyées.
         Type de données : Caractères ASCII mais également données binaires.
         Longueur des données : Illimitée.
+
+
+2 – Comparaison méthodes
