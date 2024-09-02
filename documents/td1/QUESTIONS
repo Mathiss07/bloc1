@@ -1,4 +1,4 @@
-1 - Méthodes GET et POST
+## 1 - Méthodes GET et POST
   GET : Ecrites directement dans l’URL : ex : www.example.com/register.php?firstname=peter&name=miller&age=55&gender=male
   POST : La méthode POST écrit les paramètres URL dans la requête HTTP pour le serveur. 
 
