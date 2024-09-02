@@ -1,0 +1,2 @@
+1 - Méthodes GET et POST
+GET : La méthode GET demande une représentation de la ressource spécifiée. Les requêtes GET doivent uniquement être utilisées afin de récupérer des données.
