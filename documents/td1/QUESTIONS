@@ -1,5 +1,8 @@
-**1 - Méthodes GET et POST**
-  Différences :
+1 - Méthodes GET et POST
+  GET : Ecrites directement dans l’URL : ex : www.example.com/register.php?firstname=peter&name=miller&age=55&gender=male
+  POST : La méthode POST écrit les paramètres URL dans la requête HTTP pour le serveur. 
+
+Différences :
   GET : Visibilité : Visible pour l’utilisateur dans le champ d’adresse
         Marque-page et historique de navigation :  Les paramètres de l’URL sont stockés en même temps que l’URL.
         Cache et fichier log du serveur : Les paramètres de l’URL sont stockés sans chiffrement
