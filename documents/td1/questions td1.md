@@ -45,4 +45,8 @@ Conséquences pour la navigation Web :
 
 * Scalabilité : Le caractère sans état de HTTP facilite la scalabilité des applications web. Comme le serveur n'a pas besoin de stocker l'état de chaque utilisateur, il peut traiter un grand nombre de requêtes simultanément sans surcharge liée à la gestion d'états multiples.
 
+# 5 -URL
 
+https://github.com/Mathiss07/bloc1/edit/main/documents/td1/questions%20td1.md
+
+Une URL commence par le protocole https:// ensuite vient le nom de domaine par exemple https://github.com , le ".com" est le TLD pour Top-Level Domain puis vient le chemin d'accès ici /Mathiss07/bloc1/edit/main/documents/td1/questions%20td1/ et pour finir avec l'extension ".md"
