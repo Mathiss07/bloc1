@@ -50,3 +50,36 @@ Conséquences pour la navigation Web :
 https://github.com/Mathiss07/bloc1/edit/main/documents/td1/questions%20td1.md
 
 Une URL commence par le protocole https:// ensuite vient le nom de domaine par exemple https://github.com , le ".com" est le TLD pour Top-Level Domain puis vient le chemin d'accès ici /Mathiss07/bloc1/edit/main/documents/td1/questions%20td1/ et pour finir avec l'extension ".md"
+
+# 6 -Codes Status
+
+Les codes de statut HTTP se décomposent en 5 grandes familles :
+
+* Un code 1xx indique une réponse provisoire (non implémenté avec HTTP/1.0) ;
+
+* Un code 2xx (200, 201, 202, 204) indique que la requête a été traitée avec succès ;
+
+* Un code 3xx(300, 301, 302, 304) indique que la requête doit être redirigée ;
+
+* Un code 4xx (400, 401, 403, 404) indique une erreur côté client ;
+
+* Un code 5xx (500, 501, 502, 503) indique une erreur côté serveur.
+
+# 7 -Négociation de contenu
+
+La négociation de contenu en HTTP est un processus par lequel un serveur web détermine la meilleure représentation d'une ressource à renvoyer en fonction des préférences exprimées par le client (navigateur web). Ce mécanisme permet de répondre aux divers besoins et capacités des clients, comme la langue, le format ou l'encodage des données.
+
+# 10 –Headers
+
+| En-tête            | Description                                                                 | Exemple d'utilisation                                           |
+|--------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------|
+| **Host**           | Indique le nom de domaine du serveur (et éventuellement le numéro de port). | `Host: www.exemple.com`                                          |
+| **User-Agent**     | Identifie le client (navigateur, application) qui envoie la requête.         | `User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)`         |
+| **Accept**         | Spécifie les types de contenu que le client peut traiter.                   | `Accept: text/html, application/json`                           |
+| **Accept-Language**| Indique les langues préférées du client pour le contenu de la réponse.      | `Accept-Language: fr-FR, en-US`                                 |
+| **Accept-Encoding**| Indique les encodages de contenu que le client peut décompresser.           | `Accept-Encoding: gzip, deflate`                                |
+| **Content-Type**   | Indique le type de média du corps de la requête, lorsque le client envoie des données au serveur. | `Content-Type: application/json`             |
+| **Authorization**  | Contient les informations d'authentification pour accéder à une ressource protégée. | `Authorization: Basic YWxhZGRpbjpvcGVuc2VzYW1l`        |
+| **Referer**        | Indique l'URL de la page précédente à partir de laquelle la requête a été envoyée. | `Referer: https://www.google.com`                       |
+| **Cookie**         | Envoie les cookies du client au serveur pour l'identification de la session ou d'autres informations d'état. | `Cookie: sessionId=abc123; theme=dark`             |
+| **Cache-Control**  | Indique les directives de gestion du cache pour la requête.                 | `Cache-Control: no-cache`                                      |
