@@ -30,3 +30,19 @@
 
 # 3 -Extensible
 - Comme il est extensible, il est utilisé non seulement pour transmettre des documents hypertextes HTTP, mais aussi des images ou des vidéos, ou encore pour envoyer des données ou du contenu à des serveurs, comme dans le cas des formulaires. La méthode HTTP est à la base de tout échange de données sur le Web.
+
+- Le fait que HTTP soit qualifié de protocole sans état signifie qu'à chaque requête, le serveur ne conserve aucune information sur les interactions précédentes avec le client. En d'autres termes, chaque requête HTTP est indépendante, et le serveur ne se "souvient" pas de ce qui s'est passé auparavant.
+
+# 4 -Sans état
+
+Le fait que HTTP soit qualifié de protocole sans état signifie qu'à chaque requête, le serveur ne conserve aucune information sur les interactions précédentes avec le client. En d'autres termes, chaque requête HTTP est indépendante, et le serveur ne se "souvient" pas de ce qui s'est passé auparavant.
+
+Conséquences pour la navigation Web :
+
+* Gestion de sessions : Pour maintenir une continuité entre les interactions, comme rester connecté à un site, des mécanismes comme les cookies, les sessions ou les tokens sont nécessaires. Ces outils permettent de "mémoriser" l'état entre les requêtes, malgré le caractère sans état de HTTP.
+
+* Sécurité améliorée : L'absence de stockage d'informations entre les requêtes réduit la surface d'attaque pour les pirates. Cependant, cela nécessite une gestion prudente des mécanismes comme les cookies pour éviter les vulnérabilités.
+
+* Scalabilité : Le caractère sans état de HTTP facilite la scalabilité des applications web. Comme le serveur n'a pas besoin de stocker l'état de chaque utilisateur, il peut traiter un grand nombre de requêtes simultanément sans surcharge liée à la gestion d'états multiples.
+
+
