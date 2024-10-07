@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web local</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="./css/moi.png" alt="Votre Nom">
+            <span>Mathis PAOLINI</span>
+        </div>
+        <div class="header-title">
+            <h1>Bloc1-SLAM</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/Mathiss07">Mon Github</a></li>
+            </ul>
+        </nav>
+    </header>
+    <footer>
+        <p>&copy; 2024 Web local. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        function toggleProjects(tdId) {
+            const projectsList = document.getElementById(tdId);
+            projectsList.style.display = projectsList.style.display === 'none' || projectsList.style.display === '' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
